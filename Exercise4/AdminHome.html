@@ -1,0 +1,31 @@
+<html>
+	<body>
+		<div id="wrapper">
+			<section id="first">
+				<label for="b1">View Users</label><br>
+				<button id="b1" type="button" onclick="toViewUsers()">Proceed</button>
+			</section>
+			<section id="second">
+				<label for="b2">View User Posts</label><br>
+				<button id="b2" type="button" onclick="toUserPosts()">Proceed</button>
+			</section>
+			<section id="third">
+				<label for="b3">Delete Posts</label><br>
+				<button id="b3" type="button" onclick="toDeletePosts()">Proceed</button>
+			</section>
+	</body>
+	<script>
+		function toViewUsers()
+		{
+			window.location.href = '../Exercise5/ViewUsers.php';
+		}
+		function toUserPosts()
+		{
+			window.location.href = '../Exercise6/ViewUserPosts.html';
+		}
+		function toDeletePosts()
+		{
+			window.location.href = '../Exercise7/DeletePosts.html';
+		}
+	</script>
+</html>
